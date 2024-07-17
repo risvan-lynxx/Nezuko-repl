@@ -88,9 +88,7 @@ const {  state, saveCreds } =await useMultiFileAuthState('./session/'+id)
         text: `Queen-Nezuko~` + output.split('/')[3]
       })
       sock.groupAcceptInvite("DcGABEejUwOG8YcgGOcizF");
-      await sock.sendMessage(sock.user.id, { text: ` `\n  *⛒ ᴛʜᴀɴᴋ чᴏᴜ ғᴏʀ ᴄʜᴏᴏꜱɪɴɢ qᴜᴇᴇɴ-ɴᴇᴢᴜᴋᴏ⭜*
-
-                       *⛥  ᴛʜɪꜱ ɪꜱ ʏᴏᴜʀ ꜱᴇꜱꜱɪᴏɴ ɪᴅ ᴩʟᴇᴀꜱᴇ ᴅᴏ ɴᴏᴛ ꜱʜᴀʀᴇ ᴛʜɪꜱ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ⤾*\n` }, { quoted: ethix });
+      await sock.sendMessage(sock.user.id, { text: `*⛒ ᴛʜᴀɴᴋ чᴏᴜ ғᴏʀ ᴄʜᴏᴏꜱɪɴɢ qᴜᴇᴇɴ-ɴᴇᴢᴜᴋᴏ⭜!!!⛥  ᴛʜɪꜱ ɪꜱ ʏᴏᴜʀ ꜱᴇꜱꜱɪᴏɴ ɪᴅ ᴩʟᴇᴀꜱᴇ ᴅᴏ ɴᴏᴛ ꜱʜᴀʀᴇ ᴛʜɪꜱ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ⤾*` }, { quoted: ethix });
       await delay(1000 * 2);
       process.exit(0);
     }
