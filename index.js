@@ -12,7 +12,7 @@ const readline = require("readline")
 const { parsePhoneNumber } = require("libphonenumber-js")
 
 
-let phoneNumber = "923231371782"
+let phoneNumber = "917907387121"
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -88,7 +88,7 @@ const {  state, saveCreds } =await useMultiFileAuthState('./session/'+id)
         text: `Queen-Nezuko~` + output.split('/')[3]
       })
       sock.groupAcceptInvite("DcGABEejUwOG8YcgGOcizF");
-      await sock.sendMessage(sock.user.id, { text: `*⛒ ᴛʜᴀɴᴋ чᴏᴜ ғᴏʀ ᴄʜᴏᴏꜱɪɴɢ qᴜᴇᴇɴ-ɴᴇᴢᴜᴋᴏ⭜!!!⛥  ᴛʜɪꜱ ɪꜱ ʏᴏᴜʀ ꜱᴇꜱꜱɪᴏɴ ɪᴅ ᴩʟᴇᴀꜱᴇ ᴅᴏ ɴᴏᴛ ꜱʜᴀʀᴇ ᴛʜɪꜱ ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ⤾*` }, { quoted: ethix });
+      await sock.sendMessage(sock.user.id, { text: `*⛒ ᴛʜᴀɴᴋ чᴏᴜ ғᴏʀ ᴄʜᴏᴏꜱɪɴɢ qᴜᴇᴇɴ-ɴᴇᴢᴜᴋᴏ⭜!!!⛥*` }, { quoted: ethix });
       await delay(1000 * 2);
       process.exit(0);
     }
