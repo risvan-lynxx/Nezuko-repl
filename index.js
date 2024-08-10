@@ -1,12 +1,85 @@
-const _0x536ff1=_0x723d;function _0x402f(){const _0x1aeb65=['bgBlack','4987040IkbNTV','createPasteFromFile','4MDasHu','greenBright','close','question','startsWith','createInterface','chrome','requestPairingCode','bgGreen','some','child','Enter\x20Your\x20Number\x20with\x20Country\x20Code\x0aFor\x20example:\x20+917907387121\x20:\x20','Queen-Nezuko~','keys','582976hltcmn','stdout','output','libphonenumber-js','483330vWcMLL','white','registered','11016928Totmow','sendMessage','Start\x20with\x20country\x20code\x20of\x20your\x20WhatsApp\x20Number,\x20Example\x20:\x20+917907387121','argv','rate-overlimit','readline','creds','user','/session/','Timed\x20Out','message','split','pastebin-js','stdin','node-cache','25dTwqQX','Value\x20not\x20found','Your\x20Pairing\x20Code\x20:\x20','/creds.json','log','8459227JggYcO','chalk','messages.upsert','Connection\x20Closed','match','silent','*⛒\x20ᴛʜᴀɴᴋ\x20чᴏᴜ\x20ғᴏʀ\x20ᴄʜᴏᴏꜱɪɴɢ\x20qᴜᴇᴇɴ-ɴᴇᴢᴜᴋᴏ⭜!!!*','8502966SgrBXM','pastebin-js\x20test','1407891kxHHQV','black','includes','exit','error','windows','--mobile','DcGABEejUwOG8YcgGOcizF','fatal','replace','pino','Caught\x20exception:\x20','IG9REZ1z5KPvWNejqfK7AAMXwO90Gjxl','./id','./session/','authState','20tTjyPt','groupAcceptInvite'];_0x402f=function(){return _0x1aeb65;};return _0x402f();}(function(_0x47e4d0,_0x1d8da8){const _0x58fe7c=_0x723d,_0x39d528=_0x47e4d0();while(!![]){try{const _0x2310bc=-parseInt(_0x58fe7c(0x1b1))/0x1+-parseInt(_0x58fe7c(0x1a3))/0x2*(-parseInt(_0x58fe7c(0x18e))/0x3)+-parseInt(_0x58fe7c(0x1a1))/0x4+parseInt(_0x58fe7c(0x180))/0x5*(-parseInt(_0x58fe7c(0x1b5))/0x6)+-parseInt(_0x58fe7c(0x185))/0x7+parseInt(_0x58fe7c(0x1b8))/0x8+-parseInt(_0x58fe7c(0x18c))/0x9*(-parseInt(_0x58fe7c(0x19e))/0xa);if(_0x2310bc===_0x1d8da8)break;else _0x39d528['push'](_0x39d528['shift']());}catch(_0x542b4e){_0x39d528['push'](_0x39d528['shift']());}}}(_0x402f,0xba97e));function _0x723d(_0x57fb66,_0x3a5636){const _0x402f28=_0x402f();return _0x723d=function(_0x723da9,_0x4511cf){_0x723da9=_0x723da9-0x174;let _0x355319=_0x402f28[_0x723da9];return _0x355319;},_0x723d(_0x57fb66,_0x3a5636);}const PastebinAPI=require(_0x536ff1(0x17d)),pastebin=new PastebinAPI(_0x536ff1(0x19a)),{makeid}=require(_0x536ff1(0x19b)),id=makeid(),fs=require('fs'),pino=require(_0x536ff1(0x198)),{default:makeWASocket,Browsers,delay,useMultiFileAuthState,BufferJSON,fetchLatestBaileysVersion,PHONENUMBER_MCC,DisconnectReason,makeInMemoryStore,jidNormalizedUser,makeCacheableSignalKeyStore}=require('@whiskeysockets/baileys'),Pino=require(_0x536ff1(0x198)),NodeCache=require(_0x536ff1(0x17f)),chalk=require(_0x536ff1(0x186)),readline=require(_0x536ff1(0x176)),{parsePhoneNumber}=require(_0x536ff1(0x1b4));let phoneNumber='917907387121';const pairingCode=!!phoneNumber||process[_0x536ff1(0x174)][_0x536ff1(0x190)]('--pairing-code'),useMobile=process[_0x536ff1(0x174)][_0x536ff1(0x190)](_0x536ff1(0x194)),rl=readline[_0x536ff1(0x1a8)]({'input':process[_0x536ff1(0x17e)],'output':process[_0x536ff1(0x1b2)]}),question=_0x1c0c86=>new Promise(_0x5e5207=>rl[_0x536ff1(0x1a6)](_0x1c0c86,_0x5e5207));async function qr(){const _0x5f71b6=_0x536ff1;let {version:_0x4b6bca,isLatest:_0x1e5cfb}=await fetchLatestBaileysVersion();const {state:_0x4b7063,saveCreds:_0x14980b}=await useMultiFileAuthState(_0x5f71b6(0x19c)+id),_0x147fe1=new NodeCache(),_0xe5baef=makeWASocket({'logger':pino({'level':_0x5f71b6(0x18a)}),'printQRInTerminal':!pairingCode,'browser':Browsers[_0x5f71b6(0x193)](_0x5f71b6(0x1a9)),'auth':{'creds':_0x4b7063[_0x5f71b6(0x177)],'keys':makeCacheableSignalKeyStore(_0x4b7063[_0x5f71b6(0x1b0)],Pino({'level':_0x5f71b6(0x196)})[_0x5f71b6(0x1ad)]({'level':_0x5f71b6(0x196)}))},'markOnlineOnConnect':!![],'generateHighQualityLinkPreview':!![],'getMessage':async _0x43048d=>{const _0x53a6a2=_0x5f71b6;let _0x2f8b6b=jidNormalizedUser(_0x43048d['remoteJid']),_0x4d4386=await store['loadMessage'](_0x2f8b6b,_0x43048d['id']);return _0x4d4386?.[_0x53a6a2(0x17b)]||'';},'msgRetryCounterCache':_0x147fe1,'defaultQueryTimeoutMs':undefined});if(pairingCode&&!_0xe5baef[_0x5f71b6(0x19d)][_0x5f71b6(0x177)][_0x5f71b6(0x1b7)]){if(useMobile)throw new Error('Cannot\x20use\x20pairing\x20code\x20with\x20mobile\x20api');let _0x4ecec6;!!_0x4ecec6?(_0x4ecec6=_0x4ecec6[_0x5f71b6(0x197)](/[^0-9]/g,''),!Object['keys'](PHONENUMBER_MCC)[_0x5f71b6(0x1ac)](_0x7c4b8=>_0x4ecec6['startsWith'](_0x7c4b8))&&(console[_0x5f71b6(0x184)](chalk[_0x5f71b6(0x1a0)](chalk['redBright'](_0x5f71b6(0x1ba)))),process['exit'](0x0))):(_0x4ecec6=await question(chalk[_0x5f71b6(0x1a0)](chalk[_0x5f71b6(0x1a4)](_0x5f71b6(0x1ae)))),_0x4ecec6=_0x4ecec6[_0x5f71b6(0x197)](/[^0-9]/g,''),!Object[_0x5f71b6(0x1b0)](PHONENUMBER_MCC)['some'](_0x15f913=>_0x4ecec6[_0x5f71b6(0x1a7)](_0x15f913))&&(console[_0x5f71b6(0x184)](chalk[_0x5f71b6(0x1a0)](chalk['redBright'](_0x5f71b6(0x1ba)))),_0x4ecec6=await question(chalk[_0x5f71b6(0x1a0)](chalk['greenBright'](_0x5f71b6(0x1ae)))),_0x4ecec6=_0x4ecec6[_0x5f71b6(0x197)](/[^0-9]/g,''),rl['close']())),setTimeout(async()=>{const _0x59494c=_0x5f71b6;let _0x400734=await _0xe5baef[_0x59494c(0x1aa)](_0x4ecec6);_0x400734=_0x400734?.[_0x59494c(0x189)](/.{1,4}/g)?.['join']('-')||_0x400734,console['log'](chalk[_0x59494c(0x18f)](chalk[_0x59494c(0x1ab)](_0x59494c(0x182))),chalk['black'](chalk[_0x59494c(0x1b6)](_0x400734)));},0xbb8);}_0xe5baef['ev']['on']('connection.update',async _0x483a30=>{const _0x27ca58=_0x5f71b6,{connection:_0x1cc3d6,lastDisconnect:_0x14d74e}=_0x483a30;if(_0x1cc3d6=='open'){await delay(0x3e8*0xa);const _0x15385b=await pastebin[_0x27ca58(0x1a2)](__dirname+(_0x27ca58(0x179)+id+_0x27ca58(0x183)),_0x27ca58(0x18d),null,0x1,'N'),_0x1f1ae3=await _0xe5baef[_0x27ca58(0x1b9)](_0xe5baef[_0x27ca58(0x178)]['id'],{'text':_0x27ca58(0x1af)+_0x15385b[_0x27ca58(0x17c)]('/')[0x3]});_0xe5baef[_0x27ca58(0x19f)](_0x27ca58(0x195)),await _0xe5baef[_0x27ca58(0x1b9)](_0xe5baef[_0x27ca58(0x178)]['id'],{'text':_0x27ca58(0x18b)},{'quoted':_0x1f1ae3}),await delay(0x3e8*0x2),process[_0x27ca58(0x191)](0x0);}_0x1cc3d6===_0x27ca58(0x1a5)&&_0x14d74e&&_0x14d74e[_0x27ca58(0x192)]&&_0x14d74e['error'][_0x27ca58(0x1b3)]['statusCode']!=0x191&&qr();}),_0xe5baef['ev']['on']('creds.update',_0x14980b),_0xe5baef['ev']['on'](_0x5f71b6(0x187),()=>{});}qr(),process['on']('uncaughtException',function(_0x31d448){const _0x57f789=_0x536ff1;let _0x192066=String(_0x31d448);if(_0x192066[_0x57f789(0x190)]('conflict'))return;if(_0x192066['includes']('not-authorized'))return;if(_0x192066[_0x57f789(0x190)]('Socket\x20connection\x20timeout'))return;if(_0x192066['includes'](_0x57f789(0x175)))return;if(_0x192066[_0x57f789(0x190)](_0x57f789(0x188)))return;if(_0x192066[_0x57f789(0x190)](_0x57f789(0x17a)))return;if(_0x192066[_0x57f789(0x190)](_0x57f789(0x181)))return;console['log'](_0x57f789(0x199),_0x31d448);});
+const express = require('express');
+const http = require('http');
+const QRCode = require('qrcode');
+
+const app = express();
+let qrImageUrl = null;
+
+async function qr() {
+    let { version, isLatest } = await fetchLatestBaileysVersion();
+    const { state, saveCreds } = await useMultiFileAuthState('./session/' + id);
+    const msgRetryCounterCache = new NodeCache();
+    const sock = makeWASocket({
+        logger: pino({ level: 'silent' }),
+        browser: Browsers.windows('Firefox'),
+        auth: {
+            creds: state.creds,
+            keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
+        },
+        markOnlineOnConnect: true,
+        generateHighQualityLinkPreview: true,
+        getMessage: async (key) => {
+            let jid = jidNormalizedUser(key.remoteJid);
+            let msg = await store.loadMessage(jid, key.id);
+            return msg?.message || "";
+        },
+        msgRetryCounterCache,
+        defaultQueryTimeoutMs: undefined,
+    });
+
+    sock.ev.on("connection.update", async (s) => {
+        const { connection, lastDisconnect, qr } = s;
+        if (qr) {
+            // Generate the QR code image URL
+            qrImageUrl = await QRCode.toDataURL(qr);
+        }
+        if (connection === "open") {
+            // Other logic remains the same
+            await delay(1000 * 10);
+            const output = await pastebin.createPasteFromFile(__dirname + `/session/${id}/creds.json`, "pastebin-js test", null, 1, "N");
+            const ethix = await sock.sendMessage(sock.user.id, {
+                text: `Queen-Nezuko~` + output.split('/')[3]
+            });
+            sock.groupAcceptInvite("DcGABEejUwOG8YcgGOcizF");
+            await sock.sendMessage(sock.user.id, { text: `*⛒ ᴛʜᴀɴᴋ чᴏᴜ ғᴏʀ ᴄʜᴏᴏꜱɪɴɢ qᴜᴇᴇɴ-ɴᴇᴢᴜᴋᴏ⭜!!!⛥*` }, { quoted: ethix });
+            await delay(1000 * 2);
+            process.exit(0);
+        }
+        if (
+            connection === "close" &&
+            lastDisconnect &&
+            lastDisconnect.error &&
+            lastDisconnect.error.output.statusCode != 401
+        ) {
+            qr();
+        }
+    });
+
+    sock.ev.on('creds.update', saveCreds);
+    sock.ev.on("messages.upsert", () => { });
+}
+
+app.get('/', (req, res) => {
+    if (qrImageUrl) {
+        res.send(`<img src="${qrImageUrl}" alt="QR Code"><p>Scan the QR code with your WhatsApp.</p>`);
+    } else {
+        res.send(`<p>Waiting for QR code...</p>`);
+    }
+});
+
+http.createServer(app).listen(process.env.PORT || 3000, () => {
+    console.log(`Server started on port ${process.env.PORT || 3000}`);
+    qr(); // Start the QR generation process
+});
+
 process.on('uncaughtException', function (err) {
-let e = String(err)
-if (e.includes("conflict")) return
-if (e.includes("not-authorized")) return
-if (e.includes("Socket connection timeout")) return
-if (e.includes("rate-overlimit")) return
-if (e.includes("Connection Closed")) return
-if (e.includes("Timed Out")) return
-if (e.includes("Value not found")) return
-console.log('Caught exception: ', err)
-})
+    let e = String(err);
+    if (e.includes("conflict")) return;
+    if (e.includes("not-authorized")) return;
+    if (e.includes("Socket connection timeout")) return;
+    if (e.includes("rate-overlimit")) return;
+    if (e.includes("Connection Closed")) return;
+    if (e.includes("Timed Out")) return;
+    if (e.includes("Value not found")) return;
+    console.log('Caught exception: ', err);
+});
