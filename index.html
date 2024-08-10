@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp QR Code</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        #qrCodeContainer {
+            text-align: center;
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="qrCodeContainer">
+        <h2>Scan the QR Code</h2>
+        <img id="qrCode" src="" alt="WhatsApp QR Code">
+    </div>
+
+    <script>
+        async function fetchQRCode() {
+            try {
+                const response = await fetch('/generate-qr');
+                const qrCodeUrl = await response.text();
+                document.getElementById('qrCode').src = qrCodeUrl;
+            } catch (error) {
+                console.error('Error fetching QR code:', error);
+            }
+        }
+
+        fetchQRCode();
+    </script>
+</body>
+</html>
